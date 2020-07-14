@@ -1,12 +1,4 @@
-# -*- encoding: utf-8 -*-
-'''
-@Author  :   {KangHui}
-@Software:   PyCharm
-@File    :   enhancement_cv2.py
-@Time    :   2018/11/15 15:56
-@Desc    :  cv方式数据扩充
-'''
-# =================================================
+
 import numpy as np
 # import matplotlib.pyplot as plt
 import matplotlib
@@ -32,15 +24,10 @@ Use to basic image augmentation and copy xml to dir
 '''
 # 原始数据存储位置
 jpg_dir = r'D:\all'
-# xml_dir = 'D:\\project_data\\pixel_link_20190130_traindata\\2745_ori\\train_data0130_ori_2745_xml\\'
 xml_dir=r'C:D:\all'
 # 扩充后的数据存储位置
 augment_img_dir = r'D:\all\enhance_img'
-# augment_xml_dir = 'D:\\project_data\\pixel_link_20190130_traindata\\2745_ori\\enhance\\xml\\'
-# augment_txt_dir=r'C:\Users\liuwenxiu\Desktop\objectdetection\enhance_xml'
-# for DIR in [augment_img_dir, augment_xml_dir]:
-#     print(DIR)
-#     if not os.path.exists(DIR): os.mkdir(DIR)
+
 
 
 # ====================================================
