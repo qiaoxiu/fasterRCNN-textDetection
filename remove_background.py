@@ -1,18 +1,7 @@
-# -*- encoding: utf-8 -*-
-'''
-@Author  :   {KangHui}
-@License :   (C) Copyright 2019-2029, {kanghui@okay.cn}
-@Contact :   {kanghui@okay.cn}
-@Software:   PyCharm
-@File    :   remove_background.py
-@Time    :   2019/10/30 0:02
-@Desc    :   去除图片底纹背景
-'''
-
 import cv2
 import numpy as np
 import scipy.signal as signal
-# import matplotlib.pyplot as plt
+
 
 
 def img_slice(src, row=3, col=1):
@@ -317,7 +306,7 @@ def remove_bg_by_rate(img0):
 
 
 if __name__ == '__main__':
-    for each_file in load_img_path(r'C:\Users\liuwenxiu\Desktop\result_imgs', 'JPG')[0]:
+    for each_file in load_img_path(r'C:\Users\Desktop\result_imgs', 'JPG')[0]:
         # img = cv2.imread(r'D:\cyclegan\red\A47.jpg')
 
         img = cv2.imread(each_file)
